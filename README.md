@@ -1,4 +1,4 @@
-Regularized dropout for text classification
+(Unofficial)Regularized dropout for text classification, [R-drop: Regularized Dropout for Neural Networks](https://arxiv.org/abs/2106.14448). 
 
 modified from https://github.com/monologg/JointBERT
 
