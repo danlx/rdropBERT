@@ -15,7 +15,7 @@ MODEL_CLASSES = {
     'bert': (BertConfig, JointBERT, BertTokenizer)
 }
 
-bert_path = '/content/rdropBERT/pytorch_bert'
+bert_path = './pytorch_bert'
 MODEL_PATH_MAP = {
     'bert': bert_path
 }
