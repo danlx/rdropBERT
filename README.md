@@ -16,7 +16,7 @@ bert-base-chinese from https://huggingface.co/bert-base-chinese/tree/main
 Training & Evaluation & Prediction
 
 ```bash
-$ !python main.py --task iflytek --model_type bert --model_dir iflytek_model --do_train --do_eval --do_rdrop
+$ python main.py --task iflytek --model_type bert --model_dir iflytek_model --do_train --do_eval --do_rdrop
 
 $ python predict.py --input_file {INPUT_FILE_PATH} --output_file {OUTPUT_FILE_PATH} --model_dir iflytek_model
 ```
